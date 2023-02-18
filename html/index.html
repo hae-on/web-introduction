@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Document</title>
+  </head>
+  <body class="bg">
+      <section class="info">
+        <h2 class="title">✨ 자기소개 ✨</h2>
+        <img class="info__img" src="https://trboard.game.onstove.com/Data/TR/20171107/18/636456757238592980.jpg">
+        <ul>
+          <li>이름: 해온</li>
+          <li>거주지: 송파구</li>
+          <li>혈액형: AB형</li>
+          <li>별자리: 물고기 자리</li>
+        </ul>
+      </section>
+      <section class="bestmovie">
+        <h2 class="title">✨ 인생 영화 BEST 5 ✨</h2>
+        <table>
+          <colgroup>
+            <col class="column1" />
+            <col class="columns2plus3" span="2" />
+          </colgroup>
+          <tr>
+            <th>순위</th>
+            <th>제목</th>
+            <th>포스터</th>
+            <th>한줄 소개</th>
+            <th>평점</th>
+            <th>바로가기</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>인터스텔라</td>
+            <td><img class="poster" src="https://movie-phinf.pstatic.net/20160106_138/1452044846608eaFcJ_JPEG/movie_image.jpg?type=m203_290_2" alt="poster"/></td>
+            <td>“우린 답을 찾을 거야, 늘 그랬듯이”</td>
+            <td>⭐️ 9.11</td>
+            <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=45290#">바로가기</a></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>괴물</td>
+            <td><img class="poster" src="https://movie-phinf.pstatic.net/20111223_39/1324570929423jGaQ1_JPEG/movie_image.jpg?type=m203_290_2" alt="poster"/></td>
+            <td>한강, 가족, 그리고... (괴물) | 가족의 사투가 시작된다 | 한강에 괴물이 나타났다</td>
+            <td>⭐️ 8.63</td>
+            <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=39841">바로가기</a></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>해리포터</td>
+            <td>
+              <img class="poster"
+                src="https://movie-phinf.pstatic.net/20210428_206/1619587639370bFNkC_JPEG/movie_image.jpg?type=m203_290_2"
+                alt="poster"
+              />
+            </td>
+            <td>강력한 어둠의 세력, 그에 대적하기 위해 더욱 막강해진 액션 스펙터클!
+              호그와트 3학년, 마법의 크기도 성장했다!</td>
+              <td>⭐️ 8.75</td>
+              <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=35546">바로가기</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>아이언맨</td>
+            <td><img class="poster" src="https://movie-phinf.pstatic.net/20130311_165/13629835475487aDfz_JPEG/movie_image.jpg?type=m203_290_2" alt="poster"/></td>
+            <td>21세기 가장 매력적인 히어로의 귀환
+              지금까지의 아이언맨은 잊어라!</td>
+              <td>⭐️ 8.86</td>
+              <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=70254">바로가기</a></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>트루먼쇼</td>
+            <td>
+              <img class="poster"
+                src="https://movie-phinf.pstatic.net/20181030_24/1540878641446PBOcp_JPEG/movie_image.jpg?type=m203_290_2"
+                alt="poster"
+              />
+            </td>
+            <td>
+              220개국 17억 인구가 5천 대 카메라로 지켜본 지 10909일째!
+            </td>
+            <td>⭐️ 9.36</td>
+            <td>
+              <a
+                href="https://movie.naver.com/movie/bi/mi/basic.naver?code=19099"
+                >바로가기</a
+              >
+            </td>
+          </tr>
+        </table>
+      </section>
+      <section class="guestbook">
+        <h2 class="title">✨ 방명록 ✨</h2>
+        <form>
+          <div class="input__name">
+            <label for="name">이름 :</label>
+            <input type="text" name="name" id="name">
+          </div>
+          <div class="input__movie">
+            <label for="movie">본인 취향 영화: </label>
+            <input type="checkbox" name="movie" value="인터스텔라" />인터스텔라
+            <input type="checkbox" name="movie" value="괴물" />괴물
+            <input type="checkbox" name="movie" value="해리포터" />해리포터
+            <input type="checkbox" name="movie" value="아이언맨" />아이언맨
+            <input type="checkbox" name="movie" value="트루먼쇼" />트루먼쇼
+          </div>
+          <div class="guestbook__buttons">
+          <button class="submit__button" type="submit">등록</button>
+          <button class="reset__button" type="reset">취소</button>
+        </div>
+        </form>
+        <div class='result'></div>
+      </section>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

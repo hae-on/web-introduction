@@ -1,0 +1,74 @@
+section {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+ul {
+  margin-top: 2rem;
+  list-style: none;
+  padding-left: 0px;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 1rem;
+}
+
+td {
+  padding: 2rem;
+}
+
+.bg {
+  background-image: url('data:image/jpeg;base64,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');
+  background-size: cover;
+}
+
+.title {
+  margin-bottom: 2rem;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.info__img {
+  width: 15rem;
+  height: 10rem;
+}
+
+.bestmovie {
+  width: 96%;
+  margin: auto;
+}
+
+.poster {
+  width: 5rem;
+  height: 7rem;
+}
+
+.input__name,
+.input__movie {
+  margin-bottom: 1rem;
+}
+
+.guestbook__buttons,
+.result {
+  margin-top: 2rem;
+}
+
+.submit__button,
+.reset__button {
+  margin-left: 1rem;
+  width: 4rem;
+  height: 2rem;
+  border: none;
+  font-size: 1.2rem;
+}
